@@ -1,1 +1,428 @@
 This is a test run for my code
+
+Last login: Mon Feb 17 15:15:54 on console
+ln-moco-02-10:~ ah946$ pwd
+/Users/ah946
+ln-moco-02-10:~ ah946$ cd
+.CFUserTextEncoding  .account             Desktop/             Downloads/           Movies/              Pictures/
+.Trash/              Applications/        Documents/           Library/             Music/               Public/
+ln-moco-02-10:~ ah946$ cd Desktop/
+ln-moco-02-10:Desktop ah946$ git clone
+fatal: You must specify a repository to clone.
+
+usage: git clone [<options>] [--] <repo> [<dir>]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --progress            force progress reporting
+    -n, --no-checkout     don't create a checkout
+    --bare                create a bare repository
+    --mirror              create a mirror repository (implies bare)
+    -l, --local           to clone from a local repository
+    --no-hardlinks        don't use local hardlinks, always copy
+    -s, --shared          setup as shared repository
+    --recurse-submodules[=<pathspec>]
+                          initialize submodules in the clone
+    -j, --jobs <n>        number of submodules cloned in parallel
+    --template <template-directory>
+                          directory from which templates will be used
+    --reference <repo>    reference repository
+    --reference-if-able <repo>
+                          reference repository
+    --dissociate          use --reference only while cloning
+    -o, --origin <name>   use <name> instead of 'origin' to track upstream
+    -b, --branch <branch>
+                          checkout <branch> instead of the remote's HEAD
+    -u, --upload-pack <path>
+                          path to git-upload-pack on the remote
+    --depth <depth>       create a shallow clone of that depth
+    --shallow-since <time>
+                          create a shallow clone since a specific time
+    --shallow-exclude <revision>
+                          deepen history of shallow clone, excluding rev
+    --single-branch       clone only one branch, HEAD or --branch
+    --no-tags             don't clone any tags, and make later fetches not to follow them
+    --shallow-submodules  any cloned submodules will be shallow
+    --separate-git-dir <gitdir>
+                          separate git dir from working tree
+    -c, --config <key=value>
+                          set config inside the new repository
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+    --filter <args>       object filtering
+
+ln-moco-02-10:Desktop ah946$ git clone https://github.com/chrislgarry/Apollo-11.git
+Cloning into 'Apollo-11'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 1986 (delta 0), reused 0 (delta 0), pack-reused 1983
+Receiving objects: 100% (1986/1986), 2.29 MiB | 4.40 MiB/s, done.
+Resolving deltas: 100% (1221/1221), done.
+ln-moco-02-10:Desktop ah946$ ls
+Apollo-11		Brighton Domains.webloc	Public Folder.inetloc	University Services
+ln-moco-02-10:Desktop ah946$ cd Apollo-11/
+ln-moco-02-10:Apollo-11 ah946$ ls
+CONTRIBUTING.ar.md	CONTRIBUTING.zh_tw.md	README.de.md		README.it.md		README.pt_br.md		README.zh_tw.md
+CONTRIBUTING.ko_kr.md	Comanche055		README.es.md		README.ja.md		README.ro.md
+CONTRIBUTING.md		Luminary099		README.fa.md		README.ko_kr.md		README.ru.md
+CONTRIBUTING.pt_br.md	README.ar.md		README.fr.md		README.md		README.tr.md
+CONTRIBUTING.tr.md	README.bd_bn.md		README.hi_in.md		README.mm.md		README.vi.md
+CONTRIBUTING.zh_cn.md	README.ca.md		README.id.md		README.pl.md		README.zh_cn.md
+ln-moco-02-10:Apollo-11 ah946$ cd
+.editorconfig          CONTRIBUTING.pt_br.md  README.ar.md           README.fr.md           README.md              README.tr.md
+.git/                  CONTRIBUTING.tr.md     README.bd_bn.md        README.hi_in.md        README.mm.md           README.vi.md
+.github/               CONTRIBUTING.zh_cn.md  README.ca.md           README.id.md           README.pl.md           README.zh_cn.md
+CONTRIBUTING.ar.md     CONTRIBUTING.zh_tw.md  README.de.md           README.it.md           README.pt_br.md        README.zh_tw.md
+CONTRIBUTING.ko_kr.md  Comanche055/           README.es.md           README.ja.md           README.ro.md
+CONTRIBUTING.md        Luminary099/           README.fa.md           README.ko_kr.md        README.ru.md
+ln-moco-02-10:Apollo-11 ah946$ cd
+.editorconfig          CONTRIBUTING.pt_br.md  README.ar.md           README.fr.md           README.md              README.tr.md
+.git/                  CONTRIBUTING.tr.md     README.bd_bn.md        README.hi_in.md        README.mm.md           README.vi.md
+.github/               CONTRIBUTING.zh_cn.md  README.ca.md           README.id.md           README.pl.md           README.zh_cn.md
+CONTRIBUTING.ar.md     CONTRIBUTING.zh_tw.md  README.de.md           README.it.md           README.pt_br.md        README.zh_tw.md
+CONTRIBUTING.ko_kr.md  Comanche055/           README.es.md           README.ja.md           README.ro.md
+CONTRIBUTING.md        Luminary099/           README.fa.md           README.ko_kr.md        README.ru.md
+ln-moco-02-10:Apollo-11 ah946$ cd
+.editorconfig          CONTRIBUTING.pt_br.md  README.ar.md           README.fr.md           README.md              README.tr.md
+.git/                  CONTRIBUTING.tr.md     README.bd_bn.md        README.hi_in.md        README.mm.md           README.vi.md
+.github/               CONTRIBUTING.zh_cn.md  README.ca.md           README.id.md           README.pl.md           README.zh_cn.md
+CONTRIBUTING.ar.md     CONTRIBUTING.zh_tw.md  README.de.md           README.it.md           README.pt_br.md        README.zh_tw.md
+CONTRIBUTING.ko_kr.md  Comanche055/           README.es.md           README.ja.md           README.ro.md
+CONTRIBUTING.md        Luminary099/           README.fa.md           README.ko_kr.md        README.ru.md
+ln-moco-02-10:Apollo-11 ah946$ cd
+.editorconfig          CONTRIBUTING.pt_br.md  README.ar.md           README.fr.md           README.md              README.tr.md
+.git/                  CONTRIBUTING.tr.md     README.bd_bn.md        README.hi_in.md        README.mm.md           README.vi.md
+.github/               CONTRIBUTING.zh_cn.md  README.ca.md           README.id.md           README.pl.md           README.zh_cn.md
+CONTRIBUTING.ar.md     CONTRIBUTING.zh_tw.md  README.de.md           README.it.md           README.pt_br.md        README.zh_tw.md
+CONTRIBUTING.ko_kr.md  Comanche055/           README.es.md           README.ja.md           README.ro.md
+CONTRIBUTING.md        Luminary099/           README.fa.md           README.ko_kr.md        README.ru.md
+ln-moco-02-10:Apollo-11 ah946$ cd
+.editorconfig          CONTRIBUTING.pt_br.md  README.ar.md           README.fr.md           README.md              README.tr.md
+.git/                  CONTRIBUTING.tr.md     README.bd_bn.md        README.hi_in.md        README.mm.md           README.vi.md
+.github/               CONTRIBUTING.zh_cn.md  README.ca.md           README.id.md           README.pl.md           README.zh_cn.md
+CONTRIBUTING.ar.md     CONTRIBUTING.zh_tw.md  README.de.md           README.it.md           README.pt_br.md        README.zh_tw.md
+CONTRIBUTING.ko_kr.md  Comanche055/           README.es.md           README.ja.md           README.ro.md
+CONTRIBUTING.md        Luminary099/           README.fa.md           README.ko_kr.md        README.ru.md
+ln-moco-02-10:Apollo-11 ah946$ cd
+.editorconfig          CONTRIBUTING.pt_br.md  README.ar.md           README.fr.md           README.md              README.tr.md
+.git/                  CONTRIBUTING.tr.md     README.bd_bn.md        README.hi_in.md        README.mm.md           README.vi.md
+.github/               CONTRIBUTING.zh_cn.md  README.ca.md           README.id.md           README.pl.md           README.zh_cn.md
+CONTRIBUTING.ar.md     CONTRIBUTING.zh_tw.md  README.de.md           README.it.md           README.pt_br.md        README.zh_tw.md
+CONTRIBUTING.ko_kr.md  Comanche055/           README.es.md           README.ja.md           README.ro.md
+CONTRIBUTING.md        Luminary099/           README.fa.md           README.ko_kr.md        README.ru.md
+ln-moco-02-10:Apollo-11 ah946$ cd
+.editorconfig          CONTRIBUTING.pt_br.md  README.ar.md           README.fr.md           README.md              README.tr.md
+.git/                  CONTRIBUTING.tr.md     README.bd_bn.md        README.hi_in.md        README.mm.md           README.vi.md
+.github/               CONTRIBUTING.zh_cn.md  README.ca.md           README.id.md           README.pl.md           README.zh_cn.md
+CONTRIBUTING.ar.md     CONTRIBUTING.zh_tw.md  README.de.md           README.it.md           README.pt_br.md        README.zh_tw.md
+CONTRIBUTING.ko_kr.md  Comanche055/           README.es.md           README.ja.md           README.ro.md
+CONTRIBUTING.md        Luminary099/           README.fa.md           README.ko_kr.md        README.ru.md
+ln-moco-02-10:Apollo-11 ah946$ cd
+.editorconfig          CONTRIBUTING.pt_br.md  README.ar.md           README.fr.md           README.md              README.tr.md
+.git/                  CONTRIBUTING.tr.md     README.bd_bn.md        README.hi_in.md        README.mm.md           README.vi.md
+.github/               CONTRIBUTING.zh_cn.md  README.ca.md           README.id.md           README.pl.md           README.zh_cn.md
+CONTRIBUTING.ar.md     CONTRIBUTING.zh_tw.md  README.de.md           README.it.md           README.pt_br.md        README.zh_tw.md
+CONTRIBUTING.ko_kr.md  Comanche055/           README.es.md           README.ja.md           README.ro.md
+CONTRIBUTING.md        Luminary099/           README.fa.md           README.ko_kr.md        README.ru.md
+ln-moco-02-10:Apollo-11 ah946$ cd cd ..
+-bash: cd: cd: No such file or directory
+ln-moco-02-10:Apollo-11 ah946$ pwd
+/Users/ah946/Desktop/Apollo-11
+ln-moco-02-10:Apollo-11 ah946$ cd ..
+ln-moco-02-10:Desktop ah946$ pwd
+/Users/ah946/Desktop
+ln-moco-02-10:Desktop ah946$ cd ../
+.CFUserTextEncoding  .account             Desktop/             Downloads/           Movies/              Pictures/
+.Trash/              Applications/        Documents/           Library/             Music/               Public/
+ln-moco-02-10:Desktop ah946$ cd ../
+.CFUserTextEncoding  .account             Desktop/             Downloads/           Movies/              Pictures/
+.Trash/              Applications/        Documents/           Library/             Music/               Public/
+ln-moco-02-10:Desktop ah946$ cd ../../
+.localized  Shared/     ah946/      cc1284/     jrd45/      root/       wca/
+ln-moco-02-10:Desktop ah946$ cd
+.DS_Store                .localized               Apollo-11/               Brighton Domains.webloc  Public Folder.inetloc    University Services/
+ln-moco-02-10:Desktop ah946$ cd
+.DS_Store                .localized               Apollo-11/               Brighton Domains.webloc  Public Folder.inetloc    University Services/
+ln-moco-02-10:Desktop ah946$ cd
+.DS_Store                .localized               Apollo-11/               Brighton Domains.webloc  Public Folder.inetloc    University Services/
+ln-moco-02-10:Desktop ah946$ cd
+.DS_Store                .localized               Apollo-11/               Brighton Domains.webloc  Public Folder.inetloc    University Services/
+ln-moco-02-10:Desktop ah946$ cd
+.DS_Store                .localized               Apollo-11/               Brighton Domains.webloc  Public Folder.inetloc    University Services/
+ln-moco-02-10:Desktop ah946$ cd
+.DS_Store                .localized               Apollo-11/               Brighton Domains.webloc  Public Folder.inetloc    University Services/
+ln-moco-02-10:Desktop ah946$ cd
+.DS_Store                .localized               Apollo-11/               Brighton Domains.webloc  Public Folder.inetloc    University Services/
+ln-moco-02-10:Desktop ah946$ cd
+.DS_Store                .localized               Apollo-11/               Brighton Domains.webloc  Public Folder.inetloc    University Services/
+ln-moco-02-10:Desktop ah946$ cd
+.DS_Store                .localized               Apollo-11/               Brighton Domains.webloc  Public Folder.inetloc    University Services/
+ln-moco-02-10:Desktop ah946$ cd Apollo-11/\
+> pwd
+-bash: cd: Apollo-11/pwd: No such file or directory
+ln-moco-02-10:Desktop ah946$ cd desktop
+-bash: cd: desktop: No such file or directory
+ln-moco-02-10:Desktop ah946$ pwd
+/Users/ah946/Desktop
+ln-moco-02-10:Desktop ah946$ ls
+Brighton Domains.webloc			Public Folder.inetloc			Screen Shot 2020-02-17 at 15.45.45.png	University Services
+ln-moco-02-10:Desktop ah946$ moco-02-10:Desktop ah946$ mv a/
+.DS_Store                               Screen Shot 2020-02-17 at 15.45.45.png
+ln-moco-02-10:Desktop ah946$ moco-02-10:Desktop ah946$ mv a/Screen\ Shot\ 2020-02-17\ at\ 15.45.45.png ..
+-bash: moco-02-10:Desktop: command not found
+ln-moco-02-10:Desktop ah946$ mv a/Screen\ Shot\ 2020-02-17\ at\ 15.45.45.png ..
+ln-moco-02-10:Desktop ah946$ cd ..
+ln-moco-02-10:~ ah946$ ls
+Applications				Downloads				Music					Screen Shot 2020-02-17 at 15.45.45.png
+Desktop					Library					Pictures
+Documents				Movies					Public
+ln-moco-02-10:~ ah946$ mv Screen\ Shot\ 2020-02-17\ at\ 15.45.45.png Desktop/
+ln-moco-02-10:~ ah946$ mkdir
+usage: mkdir [-pv] [-m mode] directory ...
+ln-moco-02-10:~ ah946$ mkdir testfolder
+ln-moco-02-10:~ ah946$ cd
+ln-moco-02-10:~ ah946$ pwd
+/Users/ah946
+ln-moco-02-10:~ ah946$ ls
+Applications	Desktop		Documents	Downloads	Library		Movies		Music		Pictures	Public		testfolder
+ln-moco-02-10:~ ah946$ mv testfolder/ Desktop/
+ln-moco-02-10:~ ah946$ cd Desktop/
+ln-moco-02-10:Desktop ah946$ ls
+Brighton Domains.webloc			Screen Shot 2020-02-17 at 15.45.45.png	a
+Public Folder.inetloc			University Services			testfolder
+ln-moco-02-10:Desktop ah946$ cd testfolder/
+ln-moco-02-10:testfolder ah946$ git init
+Initialized empty Git repository in /Users/ah946/Desktop/testfolder/.git/
+ln-moco-02-10:testfolder ah946$ touch amar.txt
+ln-moco-02-10:testfolder ah946$ get add amar.txt
+-bash: get: command not found
+ln-moco-02-10:testfolder ah946$ git add amar.txt
+ln-moco-02-10:testfolder ah946$ git commit -m "my first commit"
+[master (root-commit) 85abc95] my first commit
+ Committer: Amar Mohamed (student) <ah946@ln-moco-02-10.1.68.12.brighton.ac.uk>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 amar.txt
+ln-moco-02-10:testfolder ah946$ git status
+On branch master
+nothing to commit, working tree clean
+ln-moco-02-10:testfolder ah946$ git remote add origin https://github.com/samuraiamz/textfolder.git
+ln-moco-02-10:testfolder ah946$ git push -u origin master
+Username for 'https://github.com': 090Opolol
+Password for 'https://090Opolol@github.com':
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/samuraiamz/textfolder.git/'
+ln-moco-02-10:testfolder ah946$ git push -u origin master
+Username for 'https://github.com': samuraiamz
+Password for 'https://samuraiamz@github.com':
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/samuraiamz/textfolder.git/'
+ln-moco-02-10:testfolder ah946$ ls
+amar.txt
+ln-moco-02-10:testfolder ah946$ git push -u origin master
+Username for 'https://github.com': samuraiamz
+Password for 'https://samuraiamz@github.com':
+ln-moco-02-10:testfolder ah946$ git push -u origin master
+Username for 'https://github.com': samuraiamz
+Password for 'https://samuraiamz@github.com':
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/samuraiamz/textfolder.git/'
+ln-moco-02-10:testfolder ah946$ git push -u origin master
+Username for 'https://github.com': samuraiamz
+Password for 'https://samuraiamz@github.com':
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 241 bytes | 241.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/samuraiamz/textfolder.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+ln-moco-02-10:testfolder ah946$ git add cheat_sheet.png
+ln-moco-02-10:testfolder ah946$ git commit -m "image"
+[master 69bc8dd] image
+ Committer: Amar Mohamed (student) <ah946@ln-moco-02-10.1.68.12.brighton.ac.uk>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 cheat_sheet.png
+ln-moco-02-10:testfolder ah946$ git push origin master
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 128.38 KiB | 32.10 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/samuraiamz/textfolder.git
+   85abc95..69bc8dd  master -> master
+ln-moco-02-10:testfolder ah946$ cd
+ln-moco-02-10:~ ah946$ git add amar.txt
+fatal: not a git repository (or any of the parent directories): .git
+ln-moco-02-10:~ ah946$ pwd
+/Users/ah946
+ln-moco-02-10:~ ah946$ cd Desktop/testfolder/
+ln-moco-02-10:testfolder ah946$ git add amar.txt
+ln-moco-02-10:testfolder ah946$ git commit
+Aborting commit due to empty commit message.
+ln-moco-02-10:testfolder ah946$ git commit -m "added a line"
+[master 9346c30] added a line
+ Committer: Amar Mohamed (student) <ah946@ln-moco-02-10.1.68.12.brighton.ac.uk>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ln-moco-02-10:testfolder ah946$ git push origin master
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 336 bytes | 336.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/samuraiamz/textfolder.git
+   69bc8dd..9346c30  master -> master
+ln-moco-02-10:testfolder ah946$ git log
+commit 9346c30c0901d7ce1df074843ae9b878cabbe32f (HEAD -> master, origin/master)
+Author: Amar Mohamed (student) <ah946@ln-moco-02-10.1.68.12.brighton.ac.uk>
+Date:   Mon Feb 17 16:35:18 2020 +0000
+
+    added a line
+
+commit 69bc8ddaae664f14058253b539d09f1f7e5b9c16
+Author: Amar Mohamed (student) <ah946@ln-moco-02-10.1.68.12.brighton.ac.uk>
+Date:   Mon Feb 17 16:24:45 2020 +0000
+
+    image
+
+commit 85abc95a8e338c52f698f2c4d9a8e149465292ba
+Author: Amar Mohamed (student) <ah946@ln-moco-02-10.1.68.12.brighton.ac.uk>
+Date:   Mon Feb 17 16:06:57 2020 +0000
+
+    my first commit
+ln-moco-02-10:testfolder ah946$ pwd
+/Users/ah946/Desktop/testfolder
+ln-moco-02-10:testfolder ah946$ cd ..
+ln-moco-02-10:Desktop ah946$ pwd
+/Users/ah946/Desktop
+ln-moco-02-10:Desktop ah946$ cd
+ln-moco-02-10:~ ah946$ cd Desktop/
+ln-moco-02-10:Desktop ah946$ git clone
+fatal: You must specify a repository to clone.
+
+usage: git clone [<options>] [--] <repo> [<dir>]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --progress            force progress reporting
+    -n, --no-checkout     don't create a checkout
+    --bare                create a bare repository
+    --mirror              create a mirror repository (implies bare)
+    -l, --local           to clone from a local repository
+    --no-hardlinks        don't use local hardlinks, always copy
+    -s, --shared          setup as shared repository
+    --recurse-submodules[=<pathspec>]
+                          initialize submodules in the clone
+    -j, --jobs <n>        number of submodules cloned in parallel
+    --template <template-directory>
+                          directory from which templates will be used
+    --reference <repo>    reference repository
+    --reference-if-able <repo>
+                          reference repository
+    --dissociate          use --reference only while cloning
+    -o, --origin <name>   use <name> instead of 'origin' to track upstream
+    -b, --branch <branch>
+                          checkout <branch> instead of the remote's HEAD
+    -u, --upload-pack <path>
+                          path to git-upload-pack on the remote
+    --depth <depth>       create a shallow clone of that depth
+    --shallow-since <time>
+                          create a shallow clone since a specific time
+    --shallow-exclude <revision>
+                          deepen history of shallow clone, excluding rev
+    --single-branch       clone only one branch, HEAD or --branch
+    --no-tags             don't clone any tags, and make later fetches not to follow them
+    --shallow-submodules  any cloned submodules will be shallow
+    --separate-git-dir <gitdir>
+                          separate git dir from working tree
+    -c, --config <key=value>
+                          set config inside the new repository
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+    --filter <args>       object filtering
+
+ln-moco-02-10:Desktop ah946$ git clone github.com/JamesElmour/CI316.git
+fatal: repository 'github.com/JamesElmour/CI316.git' does not exist
+ln-moco-02-10:Desktop ah946$ git clone https://github.com/JamesElmour/CI316.git
+Cloning into 'CI316'...
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 9 (delta 0), reused 9 (delta 0), pack-reused 0
+Unpacking objects: 100% (9/9), done.
+ln-moco-02-10:Desktop ah946$ git add amar.txt
+fatal: not a git repository (or any of the parent directories): .git
+ln-moco-02-10:Desktop ah946$ git clone https://github.com/karina-rodriguez/testCI316
+Cloning into 'testCI316'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 6 (delta 0), reused 6 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), done.
+ln-moco-02-10:Desktop ah946$ git add myexample.txt
+fatal: not a git repository (or any of the parent directories): .git
+ln-moco-02-10:Desktop ah946$ pwd
+/Users/ah946/Desktop
+ln-moco-02-10:Desktop ah946$ cd CI316/
+ln-moco-02-10:CI316 ah946$ ls
+README.md
+ln-moco-02-10:CI316 ah946$ cd ..
+ln-moco-02-10:Desktop ah946$ cd testCI316/
+ln-moco-02-10:testCI316 ah946$ ls
+myexample.txt
+ln-moco-02-10:testCI316 ah946$ git add myexample.txt
+ln-moco-02-10:testCI316 ah946$ git commit -m "I added a line of code"
+[master 45820fa] I added a line of code
+ Committer: Amar Mohamed (student) <ah946@ln-moco-02-10.1.68.12.brighton.ac.uk>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+ln-moco-02-10:testCI316 ah946$ git push origin master
+remote: Permission to karina-rodriguez/testCI316.git denied to samuraiamz.
+fatal: unable to access 'https://github.com/karina-rodriguez/testCI316/': The requested URL returned error: 403
+ln-moco-02-10:testCI316 ah946$
